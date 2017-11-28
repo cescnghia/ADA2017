@@ -19,9 +19,11 @@ Additional research questions:
 
 General:
 
-- How fast trends travel on Twitter? After how much time the top trend changes?
+- After how much time the top trend changes?
 
 - Is there pattern of trends over time (rapid increase, rapid decrease, persistent trend.. ) according to topics?  
+
+- Are certain trends connected to each other?
 
 Language differentiation: 
 
