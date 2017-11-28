@@ -13,15 +13,15 @@ sqlContext = SQLContext(sc)
 data = sc.textFile("/datasets/tweets-leon")
 
 def selection_tweet(tweet):
-    contents = [t.encode("utf8") for t in tweet.split("\t")]
+    contents = tweet.split("\t")
     if (contents[0] == "en"):
         if (len(contents) == 5):
-            return [t.encode("utf8") for t in contents]
+            return True
     return False
 
 
-"""Data in english and encode UTF-8"""
-en_data = data.filter(selection_tweet)
+"""Data in english and has complet 5 fields"""
+data = data.filter(selection_tweet)
 
 """Take only ID and CONTENT of a tweet"""
 tweets = en_data.map(lambda tweet : Row(id=tweet[1], sentence=tweet[4]))
