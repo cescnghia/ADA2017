@@ -37,7 +37,7 @@ Language differentiation:
 
 # Dataset:
 
-Given that the Twitter dataset is huge we are going to take into account only the tweets in a certain period(for ex. the year 2015). We are going to use topic extraction techniques to find “the hottest” subjects. Then we will apply exploratory data analysis to get a better and deeper understanding of the data on Twitter. The different languages offered by this dataset will be exploited.
+Given that the Twitter dataset is huge we are going to take into account only the tweets in a certain period(for ex. one year). We are going to use topic extraction techniques to find “the hottest” subjects. Then we will apply exploratory data analysis to get a better and deeper understanding of the data on Twitter. The different languages offered by this dataset will be exploited.
 
 
 # Questions for TAs
