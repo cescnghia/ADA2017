@@ -21,7 +21,7 @@ def selection_tweet(tweet):
 
 
 """Data in english and has complet 5 fields"""
-data = data.filter(selection_tweet)
+en_data = data.filter(selection_tweet)
 
 """Take only ID and CONTENT of a tweet"""
 tweets = en_data.map(lambda tweet : Row(id=tweet[1], sentence=tweet[4]))
