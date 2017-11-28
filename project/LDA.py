@@ -14,7 +14,7 @@ data = sc.textFile("/datasets/tweets-leon")
 
 def selection_tweet(tweet):
     contents = [t.encode("utf8") for t in tweet.split("\t")]
-    if (contens[0] == "en"):
+    if (contents[0] == "en"):
         if (len(contents) == 5):
             return [t.encode("utf8") for t in contents]
     return false
