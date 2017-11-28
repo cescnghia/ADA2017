@@ -17,7 +17,7 @@ def selection_tweet(tweet):
     if (contents[0] == "en"):
         if (len(contents) == 5):
             return [t.encode("utf8") for t in contents]
-    return false
+    return False
 
 
 """Data in english and encode UTF-8"""
