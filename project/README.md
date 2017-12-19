@@ -1,10 +1,10 @@
 # Title
 
-Trends on Twitter
+Trends detection on Twitter
 
 # Abstract
 
-Through the years, Twitter has grown in one of principal sources of trends in the United States. The goal is to compare the topics creating the newest trends and their speed of propagation over time and space. Through this project we would like to discover and highlight patterns in trends on Twitter in term of speed, spread and durability. The evaluation will be split according to some important topics such as politics or global warming/ecology. Besides, trends in tweets in three different languages, English, French and Spanish will be compared.
+Through the years, Twitter has grown in one of principal sources of trends in the world. The goal of this project is to detect trends in tweets. In order to achieve this, we extract the topics using LDA jointly with the finding and discussion of the top trends per month in 2014.
 
 
 # Research questions
@@ -14,6 +14,14 @@ After a feasibility check, the overall goal of our project was redefined. Indeed
 Main research question : 
 
 - Which topics are the most tweeted (retweeted) and spread the fastest in time and place?
+
+
+# Dataset:
+
+Given that the Twitter dataset is huge we are going to take into account only the tweets in a certain period (the year 2014). We are going to use topic extraction techniques to find “the hottest” subjects. Then we will apply exploratory data analysis to get a better and deeper understanding of the data on Twitter.
+
+
+# Opportunity for further analysis
 
 Additional research questions:
 
@@ -32,15 +40,4 @@ Language differentiation:
 - Do we have the same trends in the three languages that we have in our datasets? Do they grow simultaneously or is there a time gap between trends. Do one language influences the others?
 
 - What proportion of trends created in one language spreads to other languages?
-
-
-
-# Dataset:
-
-Given that the Twitter dataset is huge we are going to take into account only the tweets in a certain period(for ex. one year). We are going to use topic extraction techniques to find “the hottest” subjects. Then we will apply exploratory data analysis to get a better and deeper understanding of the data on Twitter. The different languages offered by this dataset will be exploited.
-
-
-# Questions for TAs
-
-What about assumptions that we make? Where do we state them?
 
