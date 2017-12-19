@@ -24,5 +24,7 @@ count_rrd = filtered_column.flatMap(lambda x : x) \
 
 term_counts = sqlContext.createDataFrame(count_rrd.map(lambda wc: Row(term=wc[0], count=wc[1])))
 
+print(term.counts.count())
+
 # save to json
 term_counts.write.json("term_counts.txt")
