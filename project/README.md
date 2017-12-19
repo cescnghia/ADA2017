@@ -13,13 +13,26 @@ After a feasibility check, the overall goal of our project was redefined. Indeed
 
 Main research question : 
 
-- Which topics are the most tweeted (retweeted) and spread the fastest in time and place?
+- Which topics are the most tweeted (retweeted) and spread the fastest in time ?
 
+Additional research questions:
+
+- What are the most used hashtags per month ?
+
+- What are the most popular users on Twitter ?
 
 # Dataset:
 
-Given that the Twitter dataset is huge we are going to take into account only the tweets in a certain period (the year 2014). We are going to use topic extraction techniques to find “the hottest” subjects. Then we will apply exploratory data analysis to get a better and deeper understanding of the data on Twitter.
+Given that the Twitter dataset is huge we are going to take into account only english tweets in a certain period (the year 2014). We are going to use topic extraction techniques to find “the hottest” subjects. Then we will apply exploratory data analysis to get a better and deeper understanding of the data on Twitter.
 
+
+# Contributions of each group member:
+
+Anh Nghia Khau: finding and implementing an algorithm for topic extraction(LDA), preliminary data analysis, writing up the report, cleaning and commenting the code, working on the poster
+
+Sandra Djambazovska: data analysis on hashtags and most popular users, writting up the report, updating the README file, cleaning and commenting the code, working on the poster
+
+Camille Renner: writing up the report, updating the README file, working on the poster,  presentation of the poster
 
 # Opportunity for further analysis
 
@@ -27,17 +40,7 @@ Additional research questions:
 
 General:
 
-- After how much time the top trend changes?
-
 - Is there pattern of trends over time (rapid increase, rapid decrease, persistent trend.. ) according to topics?  
 
 - Are certain trends connected to each other?
-
-Language differentiation: 
-
-- Do trends have the same speed within one language or between the different languages?
-
-- Do we have the same trends in the three languages that we have in our datasets? Do they grow simultaneously or is there a time gap between trends. Do one language influences the others?
-
-- What proportion of trends created in one language spreads to other languages?
 
